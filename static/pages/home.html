@@ -1,0 +1,71 @@
+
+<div data-ui-load="@lib/controllers/view_pager"
+      data-ui-options="options.viewPager"
+      class="feed-pager"
+      draggable="false">
+
+     <!-- Upload -->
+     <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.autoHidingBars">
+      
+        <div  class="card mdl-card mdl-shadow--2dp">
+          <label class="label">GETTING STARTED</label>
+          <p class="text">
+            First time users should start by clicking the question mark icon in the toolbar for instructions.
+          </p>
+        </div>
+        
+        <div class="form">
+          <form action="/" method="POST" enctype="multipart/form-data">
+            <div  class="card demo-card-square mdl-card mdl-shadow--2dp">
+
+              <label class="label">UPLOAD AN IMAGE</label>
+              <div>
+                <input class="inputfile label" type="file" name="image" id="image">
+                <label for="image" class="input-label mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                  <figure>
+                    <i class="material-icons md-48">camera_alt</i>
+                  </figure>
+                  <span>PICK IMAGE TO UPLOAD</span>
+                </label>
+              </div>
+              <div>
+                <button type="submit" class="file-upload mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Upload</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+     </section>
+
+    <!-- Results -->
+    <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.autoHidingBars">
+        <div class="top-result-crd">
+          <div  class="card demo-card-square mdl-card mdl-shadow--2dp">
+            <label class="label">MASKED IMAGE</label>
+            <img src="proc_imgs/seg_img.jpg" onerror="this.src='proc_imgs/no_image_found.jpg';" class="res-img demo-card-image mdl-card mdl-shadow--2dp">
+          </div>
+        </div>
+
+        <div class="card">
+          <div  class="card mdl-card mdl-shadow--2dp">
+            <label class="label">CLASSIFICATION</label>
+            <div class="txtfile">
+              <iframe id="myFrame" scrolling="no" src="proc_imgs/output.txt"></iframe>
+              <script>
+              var frame = document.getElementById('myFrame');
+                  frame.onload = function () {
+                      var body = frame.contentWindow.document.querySelector('body');
+                      body.style.fontSize = '20px';
+                      body.style.fontFamily = 'Arial, Helvetica, sans-serif';
+                      body.style.width = '300px';
+                      body.style.lineHeight = '20px';
+                  };
+              </script></div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+</div>

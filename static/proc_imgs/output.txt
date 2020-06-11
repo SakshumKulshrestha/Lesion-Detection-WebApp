@@ -1,0 +1,2 @@
+Melanocytic Nevi(nv)
+Certainty: 0.9854264

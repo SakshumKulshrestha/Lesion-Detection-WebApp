@@ -1,0 +1,26 @@
+
+
+.message {
+    color: darkgrey;
+    min-height: 25vh;
+    width: 100vw;
+    font-size: 200%;
+}
+.message i {
+    margin-left: 16px;
+    color: darkgrey;
+    font-size: 150%;
+}
+
+h1,h2,h3 {  
+    color: grey;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+.text {
+    margin-left: 15vw;
+
+}

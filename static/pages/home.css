@@ -1,0 +1,92 @@
+.content {
+    font-family: serif;
+    font-size: 110%;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.form{
+    text-align: center;
+    margin-top: 2.5vh;
+    margin-bottom: 15vh;
+}
+
+.demo-card-square{
+    width: 500px;
+    height: 320px;
+}
+
+.label{
+    padding: 15px;
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.file-upload{   
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+
+.top-result-crd{
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.res-img{
+    height: 196px;
+    width: 256px;
+    padding: 15px;
+    margin: auto
+}
+
+.card{
+    margin:auto;
+    margin-top: 15vh;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    margin-top: 2.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #2196F3;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: rgb(90, 173, 240);
+}   
+
+.input-label{
+    width: 175px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure i {font-size: 50px !important;}
+
+.txtfile{
+    align-self: center;
+    margin: auto;
+}
