@@ -1,5 +1,5 @@
 
-Lesion Detection WebApp
+Lesion Detection Progressive WebApp
 
 A Progressive Web App to demo a segmentation and classification model using SegNet and MobileNet
 
