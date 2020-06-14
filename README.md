@@ -9,12 +9,10 @@ A limited version of the model can be seen here: https://lesion-detection.heroku
 The webapp implements two models, one for segmentation and one for classification of different skin lesions. However, due to free hosting, only the classifcation 
 is being demoed. 
 
-<img src="README images/home-page.JPG">
-
 The model is very accurate for segmentation, and it has a 84 percent accuracy for classification. Here are some examples of segmented images.
-
-<img src="README images/segmentation3.JPG">
 
 <img src="README images/segmentation2.JPG">
 
 <img src="README images/segmentation1.JPG">
+
+<img src="README images/segmentation3.JPG">
