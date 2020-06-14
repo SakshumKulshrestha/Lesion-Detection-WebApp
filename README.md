@@ -5,9 +5,9 @@ A Progressive Web App to demo a segmentation and classification model using SegN
 
 
 A limited version of the model can be seen here: https://lesion-detection.herokuapp.com
-The demo of the model must be run with browser caching disabled, which is easily done through the inspect element console. 
+The demo of the model must be run with browser caching disabled, which is easily disabled through the inspect element console.
 
-The webapp implements two models, one for segmentation and one for classification of different skin lesions. However, due to free hosting, only the classifcation 
+The web app implements two models, one for segmentation and one for classification of different skin lesions. However, due to free hosting, only the classifcation 
 is being demoed. 
 
 The model is very accurate for segmentation, and it has a 84 percent accuracy for classification. Here are some examples of segmented images.
