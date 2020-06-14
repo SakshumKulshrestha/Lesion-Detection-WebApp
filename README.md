@@ -5,7 +5,7 @@ A Progressive Web App to demo a segmentation and classification model using SegN
 
 
 A limited version of the model can be seen here: https://lesion-detection.herokuapp.com
-The demo of the model must be run with browser caching disabled, which is easily disabled through the inspect element console.
+The demo of the model relies on browser cache due to the large size fo the model, so the site must be refreshed before uploading another image.
 
 The web app implements two models, one for segmentation and one for classification of different skin lesions. However, due to free hosting, only the classifcation 
 is being demoed. 
