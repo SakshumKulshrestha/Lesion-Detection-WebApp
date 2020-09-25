@@ -13,7 +13,7 @@ scikit-learn = "*"
 opencv-python = "*"
 pandas = "*"
 pillow = "*"
-tensorflow = "<=2.0"
+tensorflow = "<3.0"
 keras = "<=2.2.5"
 
 [requires]
